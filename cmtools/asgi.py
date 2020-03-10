@@ -1,5 +1,5 @@
 """
-ASGI config for muyu_cmtool project.
+ASGI config for cmtools project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'muyu_cmtool.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cmtools.settings')
 
 application = get_asgi_application()
