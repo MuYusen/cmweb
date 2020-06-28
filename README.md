@@ -1,8 +1,10 @@
-# cmtools
+# cmweb
 
 ## 虚拟环境
 
-### 创建
+### Linux
+
+#### 创建
 
 ```
 $ mkdir myproject
@@ -10,11 +12,34 @@ $ cd myproject
 $ python3 -m venv venv
 ```
 
-### 激活
+#### 激活
 
 ```
 $ . venv/bin/activate
 ```
+
+### windows
+
+#### 创建
+
+```
+$ mkdir myproject
+$ cd myproject
+$ py -3 -m venv venv
+
+or 
+
+$ python2 -m virtualenv venv
+
+> \Python27\Scripts\virtualenv.exe venv
+```
+
+#### 激活
+
+```
+> venv\Scripts\activate
+```
+
 
 然后，pip 安装需要的安装包
 
