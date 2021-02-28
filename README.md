@@ -51,7 +51,13 @@ pip freeze > requirements.txt
 
 安装requirements.txt依赖
 
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
 pip install -r requirements.txt
+
+OR
+
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 ## start first app
@@ -65,6 +71,9 @@ python3 manage.py runserver 0.0.0.0:8000
 ## 模型
 
 ```bash
+
+sudo apt-get install libmysqlclient-dev
+
 pip install mysqlclient
 ```
 
